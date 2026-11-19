@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "build-llama/ggml/src/kleidiai-wrapper",
+		"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-cpu/kleidiai"
+	}
+}

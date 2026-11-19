@@ -1,0 +1,1 @@
+/home/shann/Documents/AndroidProj/StudyApp/app/build/intermediates/cxx/Release/1v1174o1/obj/x86_64

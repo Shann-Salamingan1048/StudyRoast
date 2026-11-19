@@ -1,0 +1,537 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "build-llama",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						8,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-build-llama-Release-70cd3a3a1634a4e94162.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp"
+				},
+				{
+					"build" : "build-llama/ggml",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-build-llama.ggml-Release-48f8cadb40bfbfd29e40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml"
+				},
+				{
+					"build" : "build-llama/ggml/src",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-build-llama.ggml.src-Release-cafec3c7f40f3bc159ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "build-llama/ggml/src/ggml-cpu",
+					"jsonFile" : "directory-build-llama.ggml.src.ggml-cpu-Release-79e44af39d11a425d036.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-cpu"
+				},
+				{
+					"build" : "build-llama/ggml/src/kleidiai-wrapper",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-build-llama.ggml.src.kleidiai-wrapper-Release-d9acb486731bc2ad89f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-cpu/kleidiai"
+				},
+				{
+					"build" : "_deps/kleidiai-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.kleidiai-build-Release-94f70f31d1cf4050ad4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-src",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "build-llama/src",
+					"jsonFile" : "directory-build-llama.src-Release-c8656043b009a2f8770a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/src",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "build-llama/vendor",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"jsonFile" : "directory-build-llama.vendor-Release-818f96499d6cbf59c272.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor"
+				},
+				{
+					"build" : "build-llama/vendor/hash",
+					"jsonFile" : "directory-build-llama.vendor.hash-Release-836d15d84da7685e0e87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/hash",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "build-llama/vendor/miniaudio",
+					"jsonFile" : "directory-build-llama.vendor.miniaudio-Release-6188beaaa0e10afa510c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/miniaudio"
+				},
+				{
+					"build" : "build-llama/vendor/nlohmann",
+					"jsonFile" : "directory-build-llama.vendor.nlohmann-Release-6fcbaf36672732ef0253.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/nlohmann"
+				},
+				{
+					"build" : "build-llama/vendor/sheredom",
+					"jsonFile" : "directory-build-llama.vendor.sheredom-Release-009f1978fe3371f6fd21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/sheredom"
+				},
+				{
+					"build" : "build-llama/vendor/stb",
+					"jsonFile" : "directory-build-llama.vendor.stb-Release-0d701da50b8e4b914c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/stb"
+				},
+				{
+					"build" : "build-llama/vendor/cpp-httplib",
+					"jsonFile" : "directory-build-llama.vendor.cpp-httplib-Release-eb26555e33c5108ff176.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/cpp-httplib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "build-llama/common",
+					"jsonFile" : "directory-build-llama.common-Release-5faba67bf85271ac2ace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/common",
+					"targetIndexes" : 
+					[
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "studyroast_llama",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "llama.cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						18,
+						19,
+						20,
+						22
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "ggml",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "KleidiAI",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 14,
+					"id" : "cpp-httplib::@e1f36686b082eccf6cbc",
+					"jsonFile" : "target-cpp-httplib-Release-dacfcbdc3257340847d1.json",
+					"name" : "cpp-httplib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-Release-84cf7aa8487597d0ffd7.json",
+					"name" : "ggml",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-base::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-base-Release-5b297bd6a4678947a1a3.json",
+					"name" : "ggml-base",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv8.0_1::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv8.0_1-Release-6f6263e014bef8334e6d.json",
+					"name" : "ggml-cpu-android_armv8.0_1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv8.0_1-feats::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv8.0_1-feats-Release-d0b6ddb51f6f7937a99b.json",
+					"name" : "ggml-cpu-android_armv8.0_1-feats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv8.2_1::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv8.2_1-Release-8b0c575600a8c1651ba3.json",
+					"name" : "ggml-cpu-android_armv8.2_1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv8.2_1-feats::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv8.2_1-feats-Release-46864405c0986c889a07.json",
+					"name" : "ggml-cpu-android_armv8.2_1-feats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv8.2_2::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv8.2_2-Release-7b0741922d456b089698.json",
+					"name" : "ggml-cpu-android_armv8.2_2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv8.2_2-feats::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv8.2_2-feats-Release-445ad4deb558faeeff79.json",
+					"name" : "ggml-cpu-android_armv8.2_2-feats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv8.6_1::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv8.6_1-Release-c3c3d87db41918c29664.json",
+					"name" : "ggml-cpu-android_armv8.6_1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv8.6_1-feats::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv8.6_1-feats-Release-6ea363c90379e516e5f7.json",
+					"name" : "ggml-cpu-android_armv8.6_1-feats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv9.0_1::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv9.0_1-Release-980d5214af2918c13f82.json",
+					"name" : "ggml-cpu-android_armv9.0_1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv9.0_1-feats::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv9.0_1-feats-Release-b1fb3c587f0316b6d080.json",
+					"name" : "ggml-cpu-android_armv9.0_1-feats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv9.2_1::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv9.2_1-Release-c73c8135f4129e3f3f8c.json",
+					"name" : "ggml-cpu-android_armv9.2_1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv9.2_1-feats::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv9.2_1-feats-Release-9560b3eb5530782e8978.json",
+					"name" : "ggml-cpu-android_armv9.2_1-feats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv9.2_2::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv9.2_2-Release-807a9fb9d1cb6a399688.json",
+					"name" : "ggml-cpu-android_armv9.2_2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu-android_armv9.2_2-feats::@23533c6d68a59d54598d",
+					"jsonFile" : "target-ggml-cpu-android_armv9.2_2-feats-Release-0ad23f5e3c48c4dc0ade.json",
+					"name" : "ggml-cpu-android_armv9.2_2-feats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "kleidiai::@a6ccdc99b4a586323a4a",
+					"jsonFile" : "target-kleidiai-Release-b3ebbbdf5ef4192cc3a2.json",
+					"name" : "kleidiai",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "llama::@b791850eb95f38641ccb",
+					"jsonFile" : "target-llama-Release-adb1d3a37432c7494845.json",
+					"name" : "llama",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "llama-common::@8bf2afb4d8037c7b7d92",
+					"jsonFile" : "target-llama-common-Release-393884b12f3239971815.json",
+					"name" : "llama-common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "llama-common-base::@8bf2afb4d8037c7b7d92",
+					"jsonFile" : "target-llama-common-base-Release-48d9da0dc7f4c39649ec.json",
+					"name" : "llama-common-base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "studyroast_llama::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-studyroast_llama-Release-e4acb8173d9d4f038883.json",
+					"name" : "studyroast_llama",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "vendor-hash::@704c45f9736004557a3a",
+					"jsonFile" : "target-vendor-hash-Release-a1485eb33e09c1ee69ef.json",
+					"name" : "vendor-hash",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a",
+		"source" : "/home/shann/Documents/AndroidProj/StudyApp/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

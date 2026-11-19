@@ -1,0 +1,14 @@
+# Target labels
+ kleidiai-populate
+# Source files and their labels
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/CMakeFiles/kleidiai-populate
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/CMakeFiles/kleidiai-populate.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/CMakeFiles/kleidiai-populate-complete.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-build.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-configure.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-download.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-install.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-mkdir.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-patch.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-test.rule
+/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-update.rule

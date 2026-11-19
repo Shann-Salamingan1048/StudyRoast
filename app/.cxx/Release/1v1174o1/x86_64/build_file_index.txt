@@ -1,0 +1,14 @@
+/home/shann/Documents/AndroidProj/StudyApp/app/src/main/cpp/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/common/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/src/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/cpp-httplib/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/hash/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/miniaudio/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/nlohmann/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/sheredom/CMakeLists.txt
+/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/stb/CMakeLists.txt

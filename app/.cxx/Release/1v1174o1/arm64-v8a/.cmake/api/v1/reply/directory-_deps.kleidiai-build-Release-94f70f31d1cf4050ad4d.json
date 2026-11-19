@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 781,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 788,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 793,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 820,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/kleidiai-build/libkleidiai.a"
+			],
+			"targetId" : "kleidiai::@a6ccdc99b4a586323a4a",
+			"targetIndex" : 17,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/KleidiAI",
+			"exportName" : "KleidiAITargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "kleidiai::@a6ccdc99b4a586323a4a",
+					"index" : 17
+				}
+			],
+			"paths" : 
+			[
+				""
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-src/kai"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/KleidiAI",
+			"paths" : 
+			[
+				"/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-build/KleidiAIConfig.cmake",
+				"/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-build/KleidiAIConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/kleidiai-build",
+		"source" : "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-src"
+	}
+}

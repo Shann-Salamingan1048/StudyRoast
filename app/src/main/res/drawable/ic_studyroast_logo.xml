@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Rounded Badge Background -->
+    <path android:pathData="M16,2 L48,2 A14,14 0 0,1 62,16 L62,48 A14,14 0 0,1 48,62 L16,62 A14,14 0 0,1 2,48 L2,16 A14,14 0 0,1 16,2 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="62"
+                android:endY="62"
+                android:startX="2"
+                android:startY="2"
+                android:type="linear">
+                <item
+                    android:color="#FF141928"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FF252D47"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Coral Border -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M16,2.8 L48,2.8 A13.2,13.2 0 0,1 61.2,16 L61.2,48 A13.2,13.2 0 0,1 48,61.2 L16,61.2 A13.2,13.2 0 0,1 2.8,48 L2.8,16 A13.2,13.2 0 0,1 16,2.8 Z"
+        android:strokeWidth="1.6"
+        android:strokeColor="#66FF6B4A" />
+
+    <!-- Outer Roast Flame -->
+    <path android:pathData="M33,10 C34,15.5 42,20 42,28.5 C42,34 38,38 32,38 C26,38 22,34 22,28.5 C22,23 26,20 27,17 C28,19.2 29.5,20 29.5,20 C29.5,16 31.2,12.2 33,10 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="32"
+                android:endY="38"
+                android:startX="32"
+                android:startY="10"
+                android:type="linear">
+                <item
+                    android:color="#FFFF967D"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FFFF6B4A"
+                    android:offset="0.6" />
+                <item
+                    android:color="#FFFF4D6D"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Amber Flame -->
+    <path
+        android:fillColor="#FFFFB703"
+        android:pathData="M32,19.5 C34.5,23.5 37.5,26 37.5,30.5 C37.5,34 35,36.5 32,36.5 C29,36.5 26.5,34 26.5,30.5 C26.5,26.5 29.5,23.5 32,19.5 Z" />
+
+    <!-- Spark Accent -->
+    <path
+        android:fillColor="#FFFFB703"
+        android:pathData="M45,12 L46,15 L49,16 L46,17 L45,20 L44,17 L41,16 L44,15 Z" />
+
+    <!-- Open Book Pages -->
+    <path
+        android:fillColor="#FFF3F5FC"
+        android:pathData="M31.3,38.5 C25,36 18.5,36 13,37.8 L13,50.5 C18.5,48.8 25,48.8 31.3,52 Z" />
+    <path
+        android:fillColor="#FFD7DDF5"
+        android:pathData="M32.7,38.5 C39,36 45.5,36 51,37.8 L51,50.5 C45.5,48.8 39,48.8 32.7,52 Z" />
+
+    <!-- Book Spine / Base -->
+    <path
+        android:fillColor="#FF7C6BFF"
+        android:pathData="M11.5,51.2 Q21.5,49.5 32,53.5 Q42.5,49.5 52.5,51.2 L52.5,53.8 Q42.5,52 32,56 Q21.5,52 11.5,53.8 Z" />
+</vector>

@@ -1,0 +1,204 @@
+{
+  "buildFiles": [
+    "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-src/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/app/src/main/cpp/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/common/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-cpu/kleidiai/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/src/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/cpp-httplib/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/hash/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/miniaudio/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/nlohmann/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/sheredom/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/stb/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/shann/Android/Sdk/cmake/3.31.6/bin/ninja",
+      "-C",
+      "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/shann/Android/Sdk/cmake/3.31.6/bin/ninja",
+    "-C",
+    "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ggml-cpu-android_armv8.0_1::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv8.0_1",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-cpu-android_armv8.0_1.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so",
+        "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "ggml-cpu-android_armv8.2_2-feats::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv8.2_2-feats",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "ggml-cpu-android_armv9.2_2-feats::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv9.2_2-feats",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "cpp-httplib::@e1f36686b082eccf6cbc": {
+      "artifactName": "cpp-httplib",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/build-llama/vendor/cpp-httplib/libcpp-httplib.a",
+      "runtimeFiles": []
+    },
+    "ggml-cpu-android_armv8.2_2::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv8.2_2",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-cpu-android_armv8.2_2.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so",
+        "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "llama::@b791850eb95f38641ccb": {
+      "artifactName": "llama",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libllama.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "studyroast_llama::@6890427a1f51a3e7e1df": {
+      "artifactName": "studyroast_llama",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/build/intermediates/cxx/Release/1v1174o1/obj/arm64-v8a/libstudyroast_llama.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libllama-common.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libllama.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-android_armv8.6_1::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv8.6_1",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-cpu-android_armv8.6_1.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so",
+        "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "ggml-cpu-android_armv9.2_1-feats::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv9.2_1-feats",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "kleidiai::@a6ccdc99b4a586323a4a": {
+      "artifactName": "kleidiai",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-build/libkleidiai.a",
+      "runtimeFiles": []
+    },
+    "ggml::@23533c6d68a59d54598d": {
+      "artifactName": "ggml",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-android_armv8.2_1::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv8.2_1",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-cpu-android_armv8.2_1.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so",
+        "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "ggml-cpu-android_armv8.6_1-feats::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv8.6_1-feats",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "ggml-cpu-android_armv9.0_1::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv9.0_1",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-cpu-android_armv9.0_1.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so",
+        "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "ggml-cpu-android_armv9.2_2::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv9.2_2",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-cpu-android_armv9.2_2.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so",
+        "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "ggml-cpu-android_armv9.2_1::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv9.2_1",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-cpu-android_armv9.2_1.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so",
+        "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "vendor-hash::@704c45f9736004557a3a": {
+      "artifactName": "vendor-hash",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/build-llama/vendor/hash/libvendor-hash.a",
+      "runtimeFiles": []
+    },
+    "ggml-cpu-android_armv8.0_1-feats::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv8.0_1-feats",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "ggml-cpu-android_armv8.2_1-feats::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv8.2_1-feats",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "llama-common::@8bf2afb4d8037c7b7d92": {
+      "artifactName": "llama-common",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libllama-common.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libllama.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "llama-common-base::@8bf2afb4d8037c7b7d92": {
+      "artifactName": "llama-common-base",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/build-llama/common/libllama-common-base.a",
+      "runtimeFiles": []
+    },
+    "ggml-base::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-base",
+      "abi": "arm64-v8a",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/bin/libggml-base.so",
+      "runtimeFiles": [
+        "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "ggml-cpu-android_armv9.0_1-feats::@23533c6d68a59d54598d": {
+      "artifactName": "ggml-cpu-android_armv9.0_1-feats",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    }
+  }
+}

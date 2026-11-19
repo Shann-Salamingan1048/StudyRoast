@@ -1,0 +1,311 @@
+{
+  "buildFiles": [
+    "/home/shann/Documents/AndroidProj/StudyApp/app/src/main/cpp/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/common/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/src/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/cpp-httplib/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/hash/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/miniaudio/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/nlohmann/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/sheredom/CMakeLists.txt",
+    "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/vendor/stb/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/shann/Android/Sdk/cmake/3.31.6/bin/ninja",
+      "-C",
+      "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/shann/Android/Sdk/cmake/3.31.6/bin/ninja",
+    "-C",
+    "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "cpp-httplib::@e1f36686b082eccf6cbc": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "cpp-httplib",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/build-llama/vendor/cpp-httplib/libcpp-httplib.a"
+    },
+    "ggml::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-base::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-base",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so",
+      "runtimeFiles": []
+    },
+    "ggml-cpu-alderlake::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-alderlake",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-alderlake.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-alderlake-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-alderlake-feats"
+    },
+    "ggml-cpu-cannonlake::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-cannonlake",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-cannonlake.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-cannonlake-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-cannonlake-feats"
+    },
+    "ggml-cpu-cascadelake::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-cascadelake",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-cascadelake.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-cascadelake-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-cascadelake-feats"
+    },
+    "ggml-cpu-cooperlake::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-cooperlake",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-cooperlake.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-cooperlake-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-cooperlake-feats"
+    },
+    "ggml-cpu-haswell::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-haswell",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-haswell.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-haswell-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-haswell-feats"
+    },
+    "ggml-cpu-icelake::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-icelake",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-icelake.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-icelake-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-icelake-feats"
+    },
+    "ggml-cpu-ivybridge::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-ivybridge",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-ivybridge.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-ivybridge-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-ivybridge-feats"
+    },
+    "ggml-cpu-piledriver::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-piledriver",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-piledriver.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-piledriver-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-piledriver-feats"
+    },
+    "ggml-cpu-sandybridge::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-sandybridge",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-sandybridge.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-sandybridge-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-sandybridge-feats"
+    },
+    "ggml-cpu-sapphirerapids::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-sapphirerapids",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-sapphirerapids.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-sapphirerapids-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-sapphirerapids-feats"
+    },
+    "ggml-cpu-skylakex::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-skylakex",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-skylakex.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-skylakex-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-skylakex-feats"
+    },
+    "ggml-cpu-sse42::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-sse42",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-sse42.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-sse42-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-sse42-feats"
+    },
+    "ggml-cpu-x64::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-x64",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-x64.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-x64-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-x64-feats"
+    },
+    "ggml-cpu-zen4::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-zen4",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-cpu-zen4.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "ggml-cpu-zen4-feats::@23533c6d68a59d54598d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu-zen4-feats"
+    },
+    "llama::@b791850eb95f38641ccb": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libllama.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "llama-common::@8bf2afb4d8037c7b7d92": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-common",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libllama-common.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libllama.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "llama-common-base::@8bf2afb4d8037c7b7d92": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-common-base",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/build-llama/common/libllama-common-base.a"
+    },
+    "studyroast_llama::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "studyroast_llama",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/build/intermediates/cxx/Release/1v1174o1/obj/x86_64/libstudyroast_llama.so",
+      "runtimeFiles": [
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libllama-common.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libllama.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml.so",
+        "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/bin/libggml-base.so"
+      ]
+    },
+    "vendor-hash::@704c45f9736004557a3a": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "vendor-hash",
+      "output": "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/x86_64/build-llama/vendor/hash/libvendor-hash.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp",
+    "cxx",
+    "c"
+  ]
+}

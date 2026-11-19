@@ -1,0 +1,670 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/libggml-base.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"set_property",
+			"find_package",
+			"add_compile_options",
+			"target_compile_definitions",
+			"add_compile_definitions",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/CMakeLists.txt",
+			"/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/CMakeLists.txt",
+			"/home/shann/Android/Sdk/cmake/3.31.6/share/cmake-3.31/Modules/FindOpenMP.cmake",
+			"/home/shann/Android/Sdk/cmake/3.31.6/share/cmake-3.31/Modules/FindThreads.cmake",
+			"/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 351,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 627,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 631,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 655,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 299,
+				"parent" : 2
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 238,
+				"parent" : 10
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 208,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 355,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 622,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 220,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 645,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 646,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 354,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 212,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 618,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 619,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O3 -DNDEBUG  -std=gnu11 -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fno-pch-timestamp"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wstrict-prototypes"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=implicit-int"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Werror=implicit-function-declaration"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wunreachable-code-break"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wunreachable-code-return"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fopenmp=libomp"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "GGML_BACKEND_DL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "GGML_BUILD"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GGML_SCHED_MAX_COPIES=4"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "GGML_SHARED"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "GGML_USE_OPENMP"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_XOPEN_SOURCE=600"
+				},
+				{
+					"define" : "ggml_base_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/."
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/build-llama/ggml/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					26
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				6,
+				8,
+				14
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -std=gnu++17 -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fno-pch-timestamp"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wmissing-noreturn"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wunreachable-code-break"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wunreachable-code-return"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wextra-semi"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fopenmp=libomp"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "GGML_BACKEND_DL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "GGML_BUILD"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GGML_SCHED_MAX_COPIES=4"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "GGML_SHARED"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "GGML_USE_OPENMP"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_XOPEN_SOURCE=600"
+				},
+				{
+					"define" : "ggml_base_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/."
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/build-llama/ggml/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/../include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					26
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				7,
+				9,
+				10,
+				11,
+				12,
+				16
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "ggml-base::@23533c6d68a59d54598d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  -Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64/libomp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/home/shann/Android/Sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "ggml-base",
+	"nameOnDisk" : "libggml-base.so",
+	"paths" : 
+	{
+		"build" : "build-llama/ggml/src",
+		"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				13,
+				15
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				14,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/include/ggml.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/include/ggml-alloc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/include/ggml-backend.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/include/ggml-cpp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/include/ggml-opt.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/include/gguf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-alloc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-backend.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-backend-meta.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-opt.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-threading.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-threading.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-quants.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/ggml-quants.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/ggml/src/gguf.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

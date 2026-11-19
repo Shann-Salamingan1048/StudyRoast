@@ -1,0 +1,89 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 294,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 313,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 321,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"build-llama/src/libllama.a"
+			],
+			"targetId" : "llama::@b791850eb95f38641ccb",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/include/llama.h",
+				"/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp/include/llama-cpp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/llama",
+			"paths" : 
+			[
+				"/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/313w5e2w/arm64-v8a/build-llama/llama-config.cmake",
+				"/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/313w5e2w/arm64-v8a/build-llama/llama-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/313w5e2w/arm64-v8a/build-llama/llama.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "build-llama",
+		"source" : "/home/shann/Documents/AndroidProj/StudyApp/third_party/llama.cpp"
+	}
+}

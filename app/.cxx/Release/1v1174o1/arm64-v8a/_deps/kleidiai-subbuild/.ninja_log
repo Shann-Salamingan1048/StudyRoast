@@ -1,0 +1,21 @@
+# ninja log v6
+1	4	1795077975664704919	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-mkdir	c675d76f86a65d81
+1	4	1795077975664704919	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-mkdir	c675d76f86a65d81
+4	1617	1795077977277701759	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-download	a26d303f999d1386
+4	1617	1795077977277701759	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-download	a26d303f999d1386
+1617	1622	1795077977282701749	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-update	1dc13262417dc9c1
+1617	1622	1795077977282701749	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-update	1dc13262417dc9c1
+1622	1626	1795077977286701741	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-patch	13e40c5c780a308
+1622	1626	1795077977286701741	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-patch	13e40c5c780a308
+1626	1630	1795077977290701734	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-configure	88d2b0c1eee8e702
+1626	1630	1795077977290701734	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-configure	88d2b0c1eee8e702
+1630	1635	1795077977295701724	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-build	1dca241ed76e445
+1630	1635	1795077977295701724	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-build	1dca241ed76e445
+1635	1639	1795077977300701714	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-install	c32fc39a82ecf6be
+1635	1639	1795077977300701714	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-install	c32fc39a82ecf6be
+1640	1644	1795077977305701704	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-test	271c37118d129e6a
+1640	1644	1795077977305701704	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-test	271c37118d129e6a
+1644	1662	1795077977322701671	CMakeFiles/kleidiai-populate-complete	410046020e3d5916
+1644	1662	1795077977322701671	kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-done	410046020e3d5916
+1644	1662	1795077977322701671	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/CMakeFiles/kleidiai-populate-complete	410046020e3d5916
+1644	1662	1795077977322701671	/home/shann/Documents/AndroidProj/StudyApp/app/.cxx/Release/1v1174o1/arm64-v8a/_deps/kleidiai-subbuild/kleidiai-populate-prefix/src/kleidiai-populate-stamp/kleidiai-populate-done	410046020e3d5916
