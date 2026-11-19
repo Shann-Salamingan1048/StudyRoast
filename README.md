@@ -1,62 +1,59 @@
-# Push StudyRoast to GitHub
+# StudyRoast 🎓🔥
 
-Your terminal showed:
+**Study smarter with an AI tutor that explains, quizzes, and jokes with you.**
 
-```text
-On branch Main
-nothing to commit, working tree clean
-```
+StudyRoast is an Android study companion designed to turn uploaded handouts into interactive learning experiences. It combines document-based multiple-choice quizzes, concept explanations, an animated AI avatar, and playful commentary to make reviewing feel more like studying with a friend.
 
-Git branch names are case-sensitive. Your local branch is `Main`, but you previously tried to push `main`.
+> **Project status:** In development. The features below describe the project's intended experience; individual features may still be under implementation or testing.
 
-## 1. Open the project folder
+## ✨ Features
 
-```bash
-cd ~/Documents/AndroidProj/StudyApp
-```
+- **📚 Handout library** — Import and organize study materials, including PDF, DOCX, and TXT files.
+- **📝 AI quiz maker** — Create practice quizzes from uploaded handouts, with four answer choices per question, answer checking, and explanations.
+- **🔎 Source-based learning** — Aim to keep questions and explanations grounded in the material you uploaded, with checks to reject unclear or unsupported questions.
+- **🤖 Animated AI tutor** — An expressive companion that reacts to your answers and helps explain difficult topics.
+- **🔥 Personality modes** — Choose **Friendly**, **Sarcastic**, **Savage**, or **Serious** feedback. The humor targets study mistakes, not the learner.
+- **💬 Ask while studying** — Chat with the tutor about concepts or ask for hints without leaving the current activity.
+- **🎙️ Voice interaction** — The planned voice experience supports spoken questions and tutor responses, subject to device capabilities.
+- **🎓 Lecture mode** — Explore topics through simpler explanations, examples, and follow-up questions.
+- **🧠 Teach the AI** — Practice explaining a concept in your own words and receive feedback on what you understood or missed.
+- **📈 Progress tracking** — Review quiz results, revisit missed questions, and identify topics that need more practice.
+- **📱 Offline-first goal** — Keep saved handouts, quizzes, and progress accessible offline, with a lightweight on-device AI tutor as the preferred long-term approach.
 
-## 2. Rename the branch to `main`
+## 🚀 How StudyRoast Works
 
-```bash
-git branch -m Main main
-```
+1. **Upload** a handout to your library.
+2. **Review** the extracted content to confirm it was read correctly.
+3. **Generate** a quiz or open a guided lecture based on that material.
+4. **Answer** four-option multiple-choice questions and get explanations.
+5. **Ask the AI tutor** for a hint, a simpler explanation, or a follow-up example.
+6. **Review mistakes** and practice challenging topics again.
 
-## 3. Verify the branch and existing commit
+## 🛠️ Technology
 
-```bash
-git branch --show-current
-git log -1 --oneline
-```
+StudyRoast is built as an Android project using:
 
-The branch should be `main`, and `git log` should show your latest commit. If `git log` says there are no commits, stop and create an initial commit first after reviewing `git status`.
+- **Kotlin** for application logic
+- **Jetpack Compose + Material 3** for the interface
+- **Gradle** for building the Android application
+- **Room / DataStore** for local persistence (as applicable to the implementation)
+- **On-device AI inference** as the intended plug-and-play tutoring architecture
+- **Android speech services or offline-capable alternatives** for voice features
 
-## 4. Confirm the GitHub remote
+## 🔒 AI, Privacy, and Cost
 
-```bash
-git remote -v
-```
+StudyRoast is designed to favor **free and open-source technology** and reduce dependence on paid AI APIs. The intended user experience is a dedicated, lightweight AI tutor with no API key or external AI server configuration required.
 
-Your `origin` should point to:
+Small local AI models can still make factual mistakes. Generated quizzes and explanations should be checked against the original handout, especially for technical or high-stakes subjects. Offline voice support and performance may vary by device.
 
-```text
-https://github.com/Shann-Salamingan1048/StudyRoast.git
-```
+## 🎯 Project Goal
 
-## 5. Push to GitHub
+Make studying more engaging, memorable, and accessible by combining **active recall, document-grounded practice, personalized explanations, and a humorous AI study partner** in one Android application.
 
-```bash
-git push -u origin main
-```
+## 📌 Development Note
 
-After the first successful push, future updates can normally use:
+This README describes StudyRoast's product direction, not a guarantee that every listed feature is already complete. Check the current app build and project source for implemented functionality.
 
-```bash
-git add .
-git status
-git commit -m "Update StudyRoast"
-git push
-```
+---
 
-Review staged files before committing. Keep API keys, `local.properties`, build outputs, and large local `.gguf` model files out of Git. Be careful with the separately tracked `third_party/llama.cpp` repository: if Git warns about an embedded repository, address it as a submodule or another explicit dependency before committing.
-
-Repository: https://github.com/Shann-Salamingan1048/StudyRoast
+*StudyRoast — Learn it. Quiz it. Get roasted. Remember it.*
